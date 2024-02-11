@@ -1,9 +1,20 @@
-body{
-    margin: 0px;
-    
+.coantaner {
+  margin: 0px;
+  padding: 0px;
+  background-color: cadetblue;
+  width: 1015px;
+  height: 590px;
 }
-.coantaner{
-    background-color: darkcyan;
-    width: 1024px;
-    height: 585px;
+@media screen and (max-width:412px) {
+  .head1{
+    width: 380px;
+  }  
+}
+.head1 {
+  color: red;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  text-shadow: 3px 2px 0px black;
 }
