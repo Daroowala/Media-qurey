@@ -5,9 +5,9 @@
   width: 1015px;
   height: 590px;
 }
-@media screen and (max-width:412px) {
+@media screen and (max-width:480px) {
   .head1{
-    width: 380px;
+    width: 470px;
   }  
 }
 .head1 {
@@ -17,4 +17,9 @@
   display: flex;
   justify-content: center;
   text-shadow: 3px 2px 0px black;
+}
+@media screen and (max-width:412px) {
+  .coantaner{
+    background-color: black;
+  }  
 }
